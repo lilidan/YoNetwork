@@ -1,0 +1,8 @@
+
+inhibit_all_warnings!
+platform :ios, '8.0'
+
+target 'YoNetworkDemo' do
+    pod 'YoNetwork', :path => '../'
+
+end
