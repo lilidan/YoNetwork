@@ -17,37 +17,6 @@
 		D60661A722F82CCB000012B8 /* YoNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60661A622F82CCB000012B8 /* YoNetworkDemoTests.m */; };
 		D616361522FA789300A21674 /* BannerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D616361422FA789300A21674 /* BannerRequest.m */; };
 		D616361822FAD08500A21674 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D616361722FAD08400A21674 /* BaseRequest.m */; };
-		D67D5FA7230185EE00A9BB06 /* JVWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FA5230185EE00A9BB06 /* JVWebView.m */; };
-		D67D5FAA2301871C00A9BB06 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FA92301871C00A9BB06 /* Utility.m */; };
-		D67D5FC1230193EB00A9BB06 /* SaberRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FAE230193EB00A9BB06 /* SaberRootViewController.m */; };
-		D67D5FC2230193EB00A9BB06 /* SaberTaskParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FB1230193EB00A9BB06 /* SaberTaskParser.m */; };
-		D67D5FC4230193EB00A9BB06 /* SaberRefreshModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FB4230193EB00A9BB06 /* SaberRefreshModel.m */; };
-		D67D5FC5230193EB00A9BB06 /* SaberWrapperViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FB6230193EB00A9BB06 /* SaberWrapperViewModel.m */; };
-		D67D5FC6230193EB00A9BB06 /* SaberRootVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FB8230193EB00A9BB06 /* SaberRootVCModel.m */; };
-		D67D5FC7230193EB00A9BB06 /* SaberWrapperView.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FBC230193EB00A9BB06 /* SaberWrapperView.m */; };
-		D67D5FC8230193EB00A9BB06 /* SaberRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FBD230193EB00A9BB06 /* SaberRefreshView.m */; };
-		D67D5FC9230193EB00A9BB06 /* SaberBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D5FBE230193EB00A9BB06 /* SaberBackButton.m */; };
-		D67D60052301946400A9BB06 /* JVViewControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D60042301946400A9BB06 /* JVViewControllerModel.m */; };
-		D67D60082301948500A9BB06 /* JVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D60072301948500A9BB06 /* JVModel.m */; };
-		D67D600C2301955400A9BB06 /* JVViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D600A2301955400A9BB06 /* JVViewModel.m */; };
-		D67D600F2301960300A9BB06 /* JVActionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D600E2301960300A9BB06 /* JVActionModel.m */; };
-		D67D6012230197E800A9BB06 /* JVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D6011230197E800A9BB06 /* JVViewController.m */; };
-		D67D6015230285CB00A9BB06 /* iconfontv2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67D6013230285CB00A9BB06 /* iconfontv2.ttf */; };
-		D67D6016230285CB00A9BB06 /* ratefont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67D6014230285CB00A9BB06 /* ratefont.ttf */; };
-		D67D6018230285D300A9BB06 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67D6017230285D200A9BB06 /* iconfont.ttf */; };
-		D67D601B23028A5800A9BB06 /* JVRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D601A23028A5800A9BB06 /* JVRequestModel.m */; };
-		D67D601E23028C0C00A9BB06 /* ArcherViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D601D23028C0C00A9BB06 /* ArcherViewModel.m */; };
-		D67D602123028C1200A9BB06 /* ArcherButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D601F23028C1200A9BB06 /* ArcherButtonModel.m */; };
-		D67D602423028C1B00A9BB06 /* ArcherButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D602223028C1B00A9BB06 /* ArcherButton.m */; };
-		D67D602723028C2E00A9BB06 /* ArcherView.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D602623028C2E00A9BB06 /* ArcherView.m */; };
-		D67D602A23028ED500A9BB06 /* JVUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D602923028ED500A9BB06 /* JVUtility.m */; };
-		D67D602D230294D800A9BB06 /* LFXUIAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D602C230294D800A9BB06 /* LFXUIAssistor.m */; };
-		D67D60312302A1E600A9BB06 /* LufaxTaskParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D602F2302A1E600A9BB06 /* LufaxTaskParser.m */; };
-		D67D60342302A1FC00A9BB06 /* LufaxRootVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D60332302A1FC00A9BB06 /* LufaxRootVCModel.m */; };
-		D67D60372302A20200A9BB06 /* LufaxRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D60352302A20200A9BB06 /* LufaxRootViewController.m */; };
-		D67D603A2302A93900A9BB06 /* JVLocalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D60382302A93900A9BB06 /* JVLocalModel.m */; };
-		D67D603D2302A94600A9BB06 /* DESCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D603B2302A94600A9BB06 /* DESCryptor.m */; };
-		D67D60402302A96000A9BB06 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D67D603F2302A96000A9BB06 /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,65 +50,6 @@
 		D616361422FA789300A21674 /* BannerRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerRequest.m; sourceTree = "<group>"; };
 		D616361622FAD08400A21674 /* BaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
 		D616361722FAD08400A21674 /* BaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
-		D67D5FA5230185EE00A9BB06 /* JVWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVWebView.m; sourceTree = "<group>"; };
-		D67D5FA6230185EE00A9BB06 /* JVWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVWebView.h; sourceTree = "<group>"; };
-		D67D5FA82301871C00A9BB06 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
-		D67D5FA92301871C00A9BB06 /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
-		D67D5FAD230193EB00A9BB06 /* SaberTaskParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaberTaskParser.h; sourceTree = "<group>"; };
-		D67D5FAE230193EB00A9BB06 /* SaberRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaberRootViewController.m; sourceTree = "<group>"; };
-		D67D5FB0230193EB00A9BB06 /* SaberRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaberRootViewController.h; sourceTree = "<group>"; };
-		D67D5FB1230193EB00A9BB06 /* SaberTaskParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaberTaskParser.m; sourceTree = "<group>"; };
-		D67D5FB4230193EB00A9BB06 /* SaberRefreshModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaberRefreshModel.m; sourceTree = "<group>"; };
-		D67D5FB5230193EB00A9BB06 /* SaberRootVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaberRootVCModel.h; sourceTree = "<group>"; };
-		D67D5FB6230193EB00A9BB06 /* SaberWrapperViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaberWrapperViewModel.m; sourceTree = "<group>"; };
-		D67D5FB7230193EB00A9BB06 /* SaberRefreshModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaberRefreshModel.h; sourceTree = "<group>"; };
-		D67D5FB8230193EB00A9BB06 /* SaberRootVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaberRootVCModel.m; sourceTree = "<group>"; };
-		D67D5FB9230193EB00A9BB06 /* SaberWrapperViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaberWrapperViewModel.h; sourceTree = "<group>"; };
-		D67D5FBB230193EB00A9BB06 /* SaberBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaberBackButton.h; sourceTree = "<group>"; };
-		D67D5FBC230193EB00A9BB06 /* SaberWrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaberWrapperView.m; sourceTree = "<group>"; };
-		D67D5FBD230193EB00A9BB06 /* SaberRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaberRefreshView.m; sourceTree = "<group>"; };
-		D67D5FBE230193EB00A9BB06 /* SaberBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaberBackButton.m; sourceTree = "<group>"; };
-		D67D5FBF230193EB00A9BB06 /* SaberRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaberRefreshView.h; sourceTree = "<group>"; };
-		D67D5FC0230193EB00A9BB06 /* SaberWrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaberWrapperView.h; sourceTree = "<group>"; };
-		D67D60032301946400A9BB06 /* JVViewControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVViewControllerModel.h; sourceTree = "<group>"; };
-		D67D60042301946400A9BB06 /* JVViewControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVViewControllerModel.m; sourceTree = "<group>"; };
-		D67D60062301948500A9BB06 /* JVModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVModel.h; sourceTree = "<group>"; };
-		D67D60072301948500A9BB06 /* JVModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVModel.m; sourceTree = "<group>"; };
-		D67D600A2301955400A9BB06 /* JVViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVViewModel.m; sourceTree = "<group>"; };
-		D67D600B2301955400A9BB06 /* JVViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVViewModel.h; sourceTree = "<group>"; };
-		D67D600D2301960300A9BB06 /* JVActionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVActionModel.h; sourceTree = "<group>"; };
-		D67D600E2301960300A9BB06 /* JVActionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVActionModel.m; sourceTree = "<group>"; };
-		D67D6010230197E700A9BB06 /* JVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVViewController.h; sourceTree = "<group>"; };
-		D67D6011230197E800A9BB06 /* JVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVViewController.m; sourceTree = "<group>"; };
-		D67D6013230285CB00A9BB06 /* iconfontv2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfontv2.ttf; sourceTree = "<group>"; };
-		D67D6014230285CB00A9BB06 /* ratefont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ratefont.ttf; sourceTree = "<group>"; };
-		D67D6017230285D200A9BB06 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
-		D67D601923028A5800A9BB06 /* JVRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVRequestModel.h; sourceTree = "<group>"; };
-		D67D601A23028A5800A9BB06 /* JVRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVRequestModel.m; sourceTree = "<group>"; };
-		D67D601C23028C0C00A9BB06 /* ArcherViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcherViewModel.h; sourceTree = "<group>"; };
-		D67D601D23028C0C00A9BB06 /* ArcherViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcherViewModel.m; sourceTree = "<group>"; };
-		D67D601F23028C1200A9BB06 /* ArcherButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcherButtonModel.m; sourceTree = "<group>"; };
-		D67D602023028C1200A9BB06 /* ArcherButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcherButtonModel.h; sourceTree = "<group>"; };
-		D67D602223028C1B00A9BB06 /* ArcherButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcherButton.m; sourceTree = "<group>"; };
-		D67D602323028C1B00A9BB06 /* ArcherButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcherButton.h; sourceTree = "<group>"; };
-		D67D602523028C2600A9BB06 /* ArcherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcherView.h; sourceTree = "<group>"; };
-		D67D602623028C2E00A9BB06 /* ArcherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcherView.m; sourceTree = "<group>"; };
-		D67D602823028ED500A9BB06 /* JVUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVUtility.h; sourceTree = "<group>"; };
-		D67D602923028ED500A9BB06 /* JVUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JVUtility.m; sourceTree = "<group>"; };
-		D67D602B230294D800A9BB06 /* LFXUIAssistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFXUIAssistor.h; sourceTree = "<group>"; };
-		D67D602C230294D800A9BB06 /* LFXUIAssistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFXUIAssistor.m; sourceTree = "<group>"; };
-		D67D602F2302A1E600A9BB06 /* LufaxTaskParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LufaxTaskParser.m; sourceTree = "<group>"; };
-		D67D60302302A1E600A9BB06 /* LufaxTaskParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LufaxTaskParser.h; sourceTree = "<group>"; };
-		D67D60322302A1FC00A9BB06 /* LufaxRootVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LufaxRootVCModel.h; sourceTree = "<group>"; };
-		D67D60332302A1FC00A9BB06 /* LufaxRootVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LufaxRootVCModel.m; sourceTree = "<group>"; };
-		D67D60352302A20200A9BB06 /* LufaxRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LufaxRootViewController.m; sourceTree = "<group>"; };
-		D67D60362302A20200A9BB06 /* LufaxRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LufaxRootViewController.h; sourceTree = "<group>"; };
-		D67D60382302A93900A9BB06 /* JVLocalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVLocalModel.m; sourceTree = "<group>"; };
-		D67D60392302A93900A9BB06 /* JVLocalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVLocalModel.h; sourceTree = "<group>"; };
-		D67D603B2302A94600A9BB06 /* DESCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESCryptor.m; sourceTree = "<group>"; };
-		D67D603C2302A94600A9BB06 /* DESCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESCryptor.h; sourceTree = "<group>"; };
-		D67D603E2302A96000A9BB06 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		D67D603F2302A96000A9BB06 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +94,6 @@
 		D606618C22F82CC9000012B8 /* YoNetworkDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D67D5FA4230185C700A9BB06 /* WebView */,
 				D616361222FA775500A21674 /* Request */,
 				D606618D22F82CC9000012B8 /* AppDelegate.h */,
 				D606618E22F82CC9000012B8 /* AppDelegate.m */,
@@ -217,112 +126,6 @@
 				D616361722FAD08400A21674 /* BaseRequest.m */,
 			);
 			path = Request;
-			sourceTree = "<group>";
-		};
-		D67D5FA4230185C700A9BB06 /* WebView */ = {
-			isa = PBXGroup;
-			children = (
-				D67D5FAB230193EB00A9BB06 /* saber */,
-				D67D5FA6230185EE00A9BB06 /* JVWebView.h */,
-				D67D5FA5230185EE00A9BB06 /* JVWebView.m */,
-				D67D5FA82301871C00A9BB06 /* Utility.h */,
-				D67D5FA92301871C00A9BB06 /* Utility.m */,
-			);
-			path = WebView;
-			sourceTree = "<group>";
-		};
-		D67D5FAB230193EB00A9BB06 /* saber */ = {
-			isa = PBXGroup;
-			children = (
-				D67D602E2302A12200A9BB06 /* Utils */,
-				D67D5FAC230193EB00A9BB06 /* controller */,
-				D67D5FB3230193EB00A9BB06 /* model */,
-				D67D5FBA230193EB00A9BB06 /* view */,
-			);
-			path = saber;
-			sourceTree = "<group>";
-		};
-		D67D5FAC230193EB00A9BB06 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				D67D60302302A1E600A9BB06 /* LufaxTaskParser.h */,
-				D67D602F2302A1E600A9BB06 /* LufaxTaskParser.m */,
-				D67D5FAD230193EB00A9BB06 /* SaberTaskParser.h */,
-				D67D5FB1230193EB00A9BB06 /* SaberTaskParser.m */,
-				D67D5FB0230193EB00A9BB06 /* SaberRootViewController.h */,
-				D67D5FAE230193EB00A9BB06 /* SaberRootViewController.m */,
-				D67D60362302A20200A9BB06 /* LufaxRootViewController.h */,
-				D67D60352302A20200A9BB06 /* LufaxRootViewController.m */,
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		D67D5FB3230193EB00A9BB06 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				D67D60392302A93900A9BB06 /* JVLocalModel.h */,
-				D67D60382302A93900A9BB06 /* JVLocalModel.m */,
-				D67D60322302A1FC00A9BB06 /* LufaxRootVCModel.h */,
-				D67D60332302A1FC00A9BB06 /* LufaxRootVCModel.m */,
-				D67D602023028C1200A9BB06 /* ArcherButtonModel.h */,
-				D67D601F23028C1200A9BB06 /* ArcherButtonModel.m */,
-				D67D601C23028C0C00A9BB06 /* ArcherViewModel.h */,
-				D67D601D23028C0C00A9BB06 /* ArcherViewModel.m */,
-				D67D5FB7230193EB00A9BB06 /* SaberRefreshModel.h */,
-				D67D5FB4230193EB00A9BB06 /* SaberRefreshModel.m */,
-				D67D5FB5230193EB00A9BB06 /* SaberRootVCModel.h */,
-				D67D5FB8230193EB00A9BB06 /* SaberRootVCModel.m */,
-				D67D5FB9230193EB00A9BB06 /* SaberWrapperViewModel.h */,
-				D67D5FB6230193EB00A9BB06 /* SaberWrapperViewModel.m */,
-				D67D6010230197E700A9BB06 /* JVViewController.h */,
-				D67D6011230197E800A9BB06 /* JVViewController.m */,
-				D67D60032301946400A9BB06 /* JVViewControllerModel.h */,
-				D67D60042301946400A9BB06 /* JVViewControllerModel.m */,
-				D67D60062301948500A9BB06 /* JVModel.h */,
-				D67D60072301948500A9BB06 /* JVModel.m */,
-				D67D600B2301955400A9BB06 /* JVViewModel.h */,
-				D67D600A2301955400A9BB06 /* JVViewModel.m */,
-				D67D600D2301960300A9BB06 /* JVActionModel.h */,
-				D67D600E2301960300A9BB06 /* JVActionModel.m */,
-				D67D601923028A5800A9BB06 /* JVRequestModel.h */,
-				D67D601A23028A5800A9BB06 /* JVRequestModel.m */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		D67D5FBA230193EB00A9BB06 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				D67D602523028C2600A9BB06 /* ArcherView.h */,
-				D67D602623028C2E00A9BB06 /* ArcherView.m */,
-				D67D602323028C1B00A9BB06 /* ArcherButton.h */,
-				D67D602223028C1B00A9BB06 /* ArcherButton.m */,
-				D67D6017230285D200A9BB06 /* iconfont.ttf */,
-				D67D6013230285CB00A9BB06 /* iconfontv2.ttf */,
-				D67D6014230285CB00A9BB06 /* ratefont.ttf */,
-				D67D5FBB230193EB00A9BB06 /* SaberBackButton.h */,
-				D67D5FBE230193EB00A9BB06 /* SaberBackButton.m */,
-				D67D5FBC230193EB00A9BB06 /* SaberWrapperView.m */,
-				D67D5FBD230193EB00A9BB06 /* SaberRefreshView.m */,
-				D67D5FBF230193EB00A9BB06 /* SaberRefreshView.h */,
-				D67D5FC0230193EB00A9BB06 /* SaberWrapperView.h */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		D67D602E2302A12200A9BB06 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				D67D603E2302A96000A9BB06 /* NSData+Base64.h */,
-				D67D603F2302A96000A9BB06 /* NSData+Base64.m */,
-				D67D603C2302A94600A9BB06 /* DESCryptor.h */,
-				D67D603B2302A94600A9BB06 /* DESCryptor.m */,
-				D67D602B230294D800A9BB06 /* LFXUIAssistor.h */,
-				D67D602C230294D800A9BB06 /* LFXUIAssistor.m */,
-				D67D602823028ED500A9BB06 /* JVUtility.h */,
-				D67D602923028ED500A9BB06 /* JVUtility.m */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		E03CCDD8ADD17AC2DF1768BE /* Pods */ = {
@@ -425,9 +228,6 @@
 			files = (
 				D606619A22F82CCB000012B8 /* LaunchScreen.storyboard in Resources */,
 				D606619722F82CCB000012B8 /* Assets.xcassets in Resources */,
-				D67D6018230285D300A9BB06 /* iconfont.ttf in Resources */,
-				D67D6016230285CB00A9BB06 /* ratefont.ttf in Resources */,
-				D67D6015230285CB00A9BB06 /* iconfontv2.ttf in Resources */,
 				D606619522F82CC9000012B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,38 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D67D602723028C2E00A9BB06 /* ArcherView.m in Sources */,
-				D67D5FC4230193EB00A9BB06 /* SaberRefreshModel.m in Sources */,
 				D606619222F82CC9000012B8 /* ViewController.m in Sources */,
-				D67D603A2302A93900A9BB06 /* JVLocalModel.m in Sources */,
-				D67D60342302A1FC00A9BB06 /* LufaxRootVCModel.m in Sources */,
-				D67D602423028C1B00A9BB06 /* ArcherButton.m in Sources */,
-				D67D5FC6230193EB00A9BB06 /* SaberRootVCModel.m in Sources */,
-				D67D600C2301955400A9BB06 /* JVViewModel.m in Sources */,
 				D616361522FA789300A21674 /* BannerRequest.m in Sources */,
-				D67D601B23028A5800A9BB06 /* JVRequestModel.m in Sources */,
-				D67D60372302A20200A9BB06 /* LufaxRootViewController.m in Sources */,
-				D67D60312302A1E600A9BB06 /* LufaxTaskParser.m in Sources */,
-				D67D600F2301960300A9BB06 /* JVActionModel.m in Sources */,
 				D616361822FAD08500A21674 /* BaseRequest.m in Sources */,
-				D67D60402302A96000A9BB06 /* NSData+Base64.m in Sources */,
-				D67D60082301948500A9BB06 /* JVModel.m in Sources */,
-				D67D5FC5230193EB00A9BB06 /* SaberWrapperViewModel.m in Sources */,
-				D67D5FC9230193EB00A9BB06 /* SaberBackButton.m in Sources */,
-				D67D5FA7230185EE00A9BB06 /* JVWebView.m in Sources */,
-				D67D5FC1230193EB00A9BB06 /* SaberRootViewController.m in Sources */,
-				D67D5FAA2301871C00A9BB06 /* Utility.m in Sources */,
-				D67D5FC8230193EB00A9BB06 /* SaberRefreshView.m in Sources */,
-				D67D6012230197E800A9BB06 /* JVViewController.m in Sources */,
-				D67D603D2302A94600A9BB06 /* DESCryptor.m in Sources */,
-				D67D60052301946400A9BB06 /* JVViewControllerModel.m in Sources */,
-				D67D5FC2230193EB00A9BB06 /* SaberTaskParser.m in Sources */,
-				D67D602D230294D800A9BB06 /* LFXUIAssistor.m in Sources */,
 				D606619D22F82CCB000012B8 /* main.m in Sources */,
-				D67D601E23028C0C00A9BB06 /* ArcherViewModel.m in Sources */,
-				D67D602A23028ED500A9BB06 /* JVUtility.m in Sources */,
-				D67D602123028C1200A9BB06 /* ArcherButtonModel.m in Sources */,
-				D67D5FC7230193EB00A9BB06 /* SaberWrapperView.m in Sources */,
 				D606618F22F82CC9000012B8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
