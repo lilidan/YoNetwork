@@ -12,6 +12,7 @@
 #import <objc/runtime.h>
 #import "JSONModel.h"
 #import "YoNetworkConfig.h"
+#import "YoNetworkResponse.h"
 
 static const float kDefaultDelayInSeconds = 1.0f;
 static const float kDefaultRetryMaxCount = 0;
@@ -161,8 +162,16 @@ static const float kDefaultRetryMaxCount = 0;
         return;
     }
     
+    Class responseModelClass = [request responseClass];
+    if ([responseModelClass isKindOfClass:[YoNetworkResponse class]]) {
+        YoNetworkResponse *reponseContainer = [[responseModelClass alloc] init];
+        reponseContainer.response = response;
+        reponseContainer.responseObject = responseObject;
+        request.handler(reponseContainer, error);
+    }
+    
     if (error) {
-        [self addRequest:request];
+        [self addRetryRequest:request];
         request.handler(nil, error);
         return;
     }
@@ -174,14 +183,8 @@ static const float kDefaultRetryMaxCount = 0;
         return;
     }
     
-    if (!responseObject) {
-        request.handler(nil, nil);
-        return;
-    }
-    
-    Class responseModelClass = [request responseClass];
-    if (!responseModelClass) {
-        request.handler(responseObject, nil);
+    if (!responseObject || !responseModelClass) {
+        request.handler(responseObject, error);
         return;
     }
     

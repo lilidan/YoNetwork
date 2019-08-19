@@ -7,10 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface YoNetworkResponse : NSObject
 
-@end
+@property (nonatomic,strong) NSHTTPURLResponse *response;
+@property (nonatomic,strong) id responseObject;
 
-NS_ASSUME_NONNULL_END
+@end
