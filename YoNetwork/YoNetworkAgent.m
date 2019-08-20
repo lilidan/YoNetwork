@@ -54,6 +54,7 @@ static const float kDefaultRetryMaxCount = 0;
         _urlSessionManager.operationQueue.maxConcurrentOperationCount = 5;
         _jsonResponseSerializer = [AFJSONResponseSerializer serializer];
         _httpResponseSerializer = [AFHTTPResponseSerializer serializer];
+        _urlSessionManager.responseSerializer = _httpResponseSerializer;
         _requestOperateQueue = dispatch_queue_create("yonetwork_request_operate_queue", DISPATCH_QUEUE_SERIAL);
         _requestsRecord = [[NSMutableDictionary alloc] init];
         _retryRequests = [[NSMutableSet alloc] init];
