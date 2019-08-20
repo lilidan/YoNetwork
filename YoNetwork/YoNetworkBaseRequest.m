@@ -24,7 +24,6 @@ static Class YoNetworkBaseRequestClass = NULL;
     return [[self agentClass] sharedAgent];
 }
 
-
 - (void)send:(YoNetworkResultBlock)handler
 {
     _handler = handler;
@@ -38,17 +37,23 @@ static Class YoNetworkBaseRequestClass = NULL;
 
 - (nullable id)requestArgument
 {
-    return [self toDictionary];
+    return _requestArgument ?: [self toDictionary];
 }
 
 - (NSString *)requestPath
 {
-    return @"";
+    return _requestPath ?: @"";
 }
 
 - (NSString *)baseUrl
 {
-    return [self.agent.config baseUrl];
+    return _baseUrl ?: [self.agent.config baseUrl];
+}
+
+
+- (YoNetworkRequestMethod)requestMethod
+{
+    return _requestMethod;
 }
 
 - (Class)responseClass
@@ -62,8 +67,6 @@ static Class YoNetworkBaseRequestClass = NULL;
 }
 
 
-#pragma  mark - YoNetworkBaseRequestProtocol
-
 - (NSTimeInterval)requestTimeoutInterval
 {
     return 60;
@@ -73,10 +76,6 @@ static Class YoNetworkBaseRequestClass = NULL;
     return nil;
 }
 
-- (YoNetworkRequestMethod)requestMethod
-{
-    return YoNetworkRequestMethodPOST;
-}
 
 - (YoNetworkRequestSerializerType)requestSerializerType
 {

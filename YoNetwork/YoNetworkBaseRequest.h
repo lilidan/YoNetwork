@@ -25,35 +25,36 @@ typedef NS_ENUM(NSInteger, YoNetworkRequestMethod) {
 typedef void(^YoNetworkResultBlock)(id,NSError *);
 
 
-// for a kind of request
-@protocol YoNetworkBaseRequestProtocol <NSObject>
+
+@interface YoNetworkBaseRequest : NSObject
+
+@property (nonatomic,copy) YoNetworkResultBlock handler;
+@property (nonatomic,strong) NSURLSessionTask *task;
+
+@property (nonatomic,strong) id requestArgument;
+@property (nonatomic,strong) NSString *requestPath;
+@property (nonatomic,strong) NSString *baseUrl;
+@property (nonatomic,assign) YoNetworkRequestMethod requestMethod;
+
+
+- (void)send:(YoNetworkResultBlock)handler;
+- (void)clearCompletionBlock;
 
 - (NSString *)baseUrl;
+- (NSString *)requestPath;
+- (id)requestArgument;
+
+- (Class)responseClass;
+- (Class)agentClass;
+
 - (YoNetworkRequestMethod)requestMethod;
 - (YoNetworkRequestSerializerType)requestSerializerType;
 - (YoNetworkResponseSerializerType)responseSerializerType;
 - (nullable NSDictionary<NSString *, NSString *> *)requestHeaderFieldValueDictionary;
 - (NSTimeInterval)requestTimeoutInterval;
-- (BOOL)allowsCellularAccess;
 - (id)responseLogicHandler:(id)responseObject error:(__autoreleasing NSError **)error;
 
-@end
-
-
-@interface YoNetworkBaseRequest : NSObject<YoNetworkBaseRequestProtocol>
-
-@property (nonatomic,copy) YoNetworkResultBlock handler;
-@property (nonatomic,strong) NSURLSessionTask *task;
-
-- (void)send:(YoNetworkResultBlock)handler;
-- (void)clearCompletionBlock;
-
-// for each request
-- (nullable id)requestArgument;
-- (NSString *)requestPath;
-- (Class)responseClass;
-- (Class)agentClass;
-
+- (BOOL)allowsCellularAccess;
 - (BOOL)retryForReachablity;
 
 @end
