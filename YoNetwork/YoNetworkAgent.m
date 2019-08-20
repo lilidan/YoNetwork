@@ -163,7 +163,7 @@ static const float kDefaultRetryMaxCount = 0;
     }
     
     Class responseModelClass = [request responseClass];
-    if ([responseModelClass isKindOfClass:[YoNetworkResponse class]]) {
+    if ([responseModelClass isSubclassOfClass:[YoNetworkResponse class]]) {
         YoNetworkResponse *reponseContainer = [[responseModelClass alloc] init];
         reponseContainer.response = response;
         reponseContainer.responseObject = responseObject;
