@@ -168,6 +168,7 @@ static const float kDefaultRetryMaxCount = 0;
         reponseContainer.response = response;
         reponseContainer.responseObject = responseObject;
         request.handler(reponseContainer, error);
+        return;
     }
     
     if (error) {
