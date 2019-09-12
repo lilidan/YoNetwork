@@ -13,6 +13,7 @@
 #import "JSONModel.h"
 #import "YoNetworkConfig.h"
 #import "YoNetworkResponse.h"
+#import "YoNetworkError.h"
 
 static const float kDefaultDelayInSeconds = 1.0f;
 static const float kDefaultRetryMaxCount = 0;
@@ -172,16 +173,17 @@ static const float kDefaultRetryMaxCount = 0;
         return;
     }
     
-    if (error) {
-        [self addRetryRequest:request];
+    //http check
+    if (response && (response.statusCode < 200 || response.statusCode >= 400)) {
+        //Wrong
+        error = [NSError errorWithDomain:YoNetworkHTTPErrorDomain code:response.statusCode userInfo:@{NSLocalizedDescriptionKey:@"http code error"}];
         request.handler(nil, error);
         return;
     }
     
-    //http check
-    if (response.statusCode < 200 || response.statusCode >= 400) {
-        //Wrong
-        request.handler(nil, nil);
+    if (error) {
+        [self addRetryRequest:request];
+        request.handler(nil, [error chineseError]);
         return;
     }
     

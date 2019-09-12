@@ -10,15 +10,15 @@
 
 @implementation BaseRequest
 
-//- (NSString *)baseUrl
-//{
-//    return @"http://nts-app.stg19.lutest.pingan.com";
-//}
-
 - (NSString *)baseUrl
 {
-    return @"https://nts-app.pingan.com";
+    return @"http://nts-app.stg16.lutest.pingan.com";
 }
+
+//- (NSString *)baseUrl
+//{
+//    return @"https://nts-app.pingan.com";
+//}
 
 - (YoNetworkRequestSerializerType)requestSerializerType
 {
