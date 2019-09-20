@@ -217,7 +217,7 @@ static const float kDefaultRetryMaxCount = 0;
     if ([responseObject isKindOfClass:[NSDictionary class]]) {
         model = [[responseModelClass alloc] initWithDictionary:responseObject error:&error];
     }else if ([responseObject isKindOfClass:[NSArray class]]){
-        model = [JSONModel arrayOfModelsFromDictionaries:responseObject error:&error];
+        model = [responseModelClass arrayOfModelsFromDictionaries:responseObject error:&error];
     }
 
     if (error) {
